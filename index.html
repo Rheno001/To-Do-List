@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
 <body>
     <main class="app">
-        <h1>My Todo List</h1>
+        <h1 class="Title">My Todo List</h1>
         <div class="input-header">
-            <h1><span id="date"></span></h1>
+            <h1>Date: <span id="date"></span></h1>
             <div class="to-do-input">
                 <input type="text" id="item" placeholder="Enter a task..."><button id="enter">Enter</button>
             </div>
@@ -23,20 +25,7 @@
 
 
     <script src="script.js"></script>
-    <div class="item">
-    <div class="input-controller">
-        <textarea disabled></textarea>
-        <div class="edit-controller">
-            <i class="fa-solid fa-check deleteBtn"></i>
-            <i class="fa-solid fa-pen-to-square editBtn"></i>
-        </div>
-
-    </div>
-    <div class="update-controller">
-        <button class="saveBtn">Save</button>
-        <button class="cancelBtn">Cancel</button>
-    </div>
-    </div>
+    
     
 </body>
 </html>

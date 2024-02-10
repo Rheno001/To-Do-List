@@ -1,3 +1,60 @@
-.update-controller{
-    display: none;
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Revolution', sans-serif;
+}
+:root {
+    --dark-green: #073b3a;
+    --light-green: #0b6e4f;
+    --lighter-green: #6bbf59;
+    --hova: #21d375;
+  }
+.app{
+    background: var(--dark-green);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+
+}
+.Title{
+    text-decoration: underline;
+    padding: 10px;
+}
+.input-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-header h1{
+    font-size: 22px;
+}
+#date{
+    font-size: 20px;
+}
+button{
+    background: var(--lighter-green);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+button:hover{
+    transition: .5s;
+    background: var(--hova);
+    transform: scale(1.2);
+}
+button:active{
+    background: var(--light-green);
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
 }
